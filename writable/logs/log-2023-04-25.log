@@ -1,0 +1,246 @@
+CRITICAL - 2023-04-25 21:14:01 --> You must set the database table to be used with your query.
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(11): CodeIgniter\Model->__call('tampil', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2023-04-25 21:14:10 --> You must set the database table to be used with your query.
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(11): CodeIgniter\Model->__call('tampil', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2023-04-25 21:14:37 --> You must set the database table to be used with your query.
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(11): CodeIgniter\Model->__call('tampil', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2023-04-25 21:14:42 --> You must set the database table to be used with your query.
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(11): CodeIgniter\Model->__call('tampil', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2023-04-25 21:14:42 --> You must set the database table to be used with your query.
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(11): CodeIgniter\Model->__call('tampil', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2023-04-25 21:18:28 --> You must set the database table to be used with your query.
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(11): CodeIgniter\Model->__call('tampil', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2023-04-25 21:18:45 --> You must set the database table to be used with your query.
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(11): CodeIgniter\Model->__call('tampil', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2023-04-25 21:19:16 --> You must set the database table to be used with your query.
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(11): CodeIgniter\Model->__call('tampil', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+ERROR - 2023-04-25 21:20:28 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 21:20:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Models/M_karyawan.php(10): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(11): App\Models\M_karyawan->tampil('karyawan')
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#9 {main}
+ERROR - 2023-04-25 21:20:30 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 21:20:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Models/M_karyawan.php(10): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(11): App\Models\M_karyawan->tampil('karyawan')
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#9 {main}
+ERROR - 2023-04-25 21:21:01 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 21:21:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Models/M_karyawan.php(10): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(11): App\Models\M_karyawan->tampil('karyawan')
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#9 {main}
+ERROR - 2023-04-25 21:21:02 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 21:21:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Models/M_karyawan.php(10): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(11): App\Models\M_karyawan->tampil('karyawan')
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#9 {main}
+ERROR - 2023-04-25 21:21:02 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 21:21:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Models/M_karyawan.php(10): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(11): App\Models\M_karyawan->tampil('karyawan')
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#9 {main}
+ERROR - 2023-04-25 21:21:02 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 21:21:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Models/M_karyawan.php(10): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(11): App\Models\M_karyawan->tampil('karyawan')
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#9 {main}
+ERROR - 2023-04-25 21:21:03 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 21:21:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Models/M_karyawan.php(10): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(11): App\Models\M_karyawan->tampil('karyawan')
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#9 {main}
+ERROR - 2023-04-25 21:21:03 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 21:21:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Models/M_karyawan.php(10): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(11): App\Models\M_karyawan->tampil('karyawan')
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#9 {main}
+ERROR - 2023-04-25 21:21:03 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 21:21:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Models/M_karyawan.php(10): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(11): App\Models\M_karyawan->tampil('karyawan')
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#9 {main}
+ERROR - 2023-04-25 21:21:03 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 21:21:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Models/M_karyawan.php(10): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(11): App\Models\M_karyawan->tampil('karyawan')
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#9 {main}
+ERROR - 2023-04-25 21:21:04 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 21:21:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Models/M_karyawan.php(10): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(11): App\Models\M_karyawan->tampil('karyawan')
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#9 {main}
+ERROR - 2023-04-25 21:21:13 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 21:21:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Models/M_karyawan.php(10): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(11): App\Models\M_karyawan->tampil('karyawan')
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2023-04-25 22:11:08 --> syntax error, unexpected end of file
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Common.php(1089): CodeIgniter\View\View->render('karyawan/view', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(15): view('karyawan/view', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}

@@ -1,0 +1,156 @@
+CRITICAL - 2023-04-26 10:46:01 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('user')
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle('user')
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2023-04-26 10:49:11 --> Class 'App\Models\M_model' not found
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+ERROR - 2023-04-26 11:09:20 --> Table 'apotek.jabatan' doesn't exist
+CRITICAL - 2023-04-26 11:09:20 --> Call to a member function getResult() on bool
+#0 /Applications/XAMPP/xamppfiles/htdocs/apotek/app/Controllers/Karyawan.php(22): App\Models\M_model->tampil('jabatan')
+#1 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(832): App\Controllers\Karyawan->create()
+#2 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#3 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/apotek/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/apotek/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+ERROR - 2023-04-26 15:38:51 --> Column 'nama_level' cannot be null
+CRITICAL - 2023-04-26 20:39:29 --> Class 'App\Models\M_model' not found
+#0 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-26 20:44:45 --> Class 'App\Models\M_model' not found
+#0 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-26 20:58:17 --> Invalid file: level/edit.php
+#0 C:\xampp\htdocs\apotek\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('level/edit.php')
+#1 C:\xampp\htdocs\apotek\system\Common.php(1089): CodeIgniter\View\View->render('level/edit', Array, true)
+#2 C:\xampp\htdocs\apotek\app\Controllers\level.php(59): view('level/edit', Array)
+#3 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\Level->edit('1')
+#4 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Level))
+#5 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-04-26 21:00:16 --> Invalid file: edit.php
+#0 C:\xampp\htdocs\apotek\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit.php')
+#1 C:\xampp\htdocs\apotek\system\Common.php(1089): CodeIgniter\View\View->render('edit', Array, true)
+#2 C:\xampp\htdocs\apotek\app\Controllers\level.php(59): view('edit', Array)
+#3 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\Level->edit('1')
+#4 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Level))
+#5 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-04-26 21:02:24 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\apotek\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\apotek\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\apotek\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\apotek\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-04-26 21:10:58 --> Too few arguments to function App\Controllers\Level::edit(), 0 passed in C:\xampp\htdocs\apotek\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\Level->edit()
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Level))
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-26 21:11:23 --> Too few arguments to function App\Controllers\Level::edit(), 0 passed in C:\xampp\htdocs\apotek\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\Level->edit()
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Level))
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-26 21:18:58 --> Class 'App\Models\M_model' not found
+#0 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-26 21:22:09 --> Too few arguments to function App\Models\M_level::qedit(), 2 passed in C:\xampp\htdocs\apotek\app\Controllers\level.php on line 76 and exactly 3 expected
+#0 C:\xampp\htdocs\apotek\app\Controllers\level.php(76): App\Models\M_level->qedit('level', Array)
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\Level->aksi_edit()
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Level))
+#3 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-26 21:41:14 --> Too few arguments to function App\Controllers\Karyawan::hapus(), 0 passed in C:\xampp\htdocs\apotek\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\Karyawan->hapus()
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-26 21:41:35 --> Class 'App\Controllers\M_level' not found
+#0 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\Karyawan->hapus('1')
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-04-26 21:45:28 --> Column 'nama_level' cannot be null
+CRITICAL - 2023-04-26 21:49:00 --> Class 'App\Models\M_model' not found
+#0 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-26 21:49:55 --> Class 'App\Models\M_user' not found
+#0 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-26 21:59:45 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\apotek\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('karyawan')
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('karyawan')
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-26 22:03:39 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\apotek\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('karyawan')
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('karyawan')
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-26 22:08:06 --> syntax error, unexpected 'CSS' (T_STRING), expecting '['
+#0 C:\xampp\htdocs\apotek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\apotek\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\xampp\htdocs\apotek\app\Controllers\karyawan.php(96): view('header')
+#3 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\Karyawan->edit('1')
+#4 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#5 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-04-26 22:11:33 --> Unknown column 'jabatan' in 'field list'
+ERROR - 2023-04-26 22:12:50 --> Unknown column 'jabatan' in 'field list'

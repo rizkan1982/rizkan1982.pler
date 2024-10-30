@@ -1,0 +1,185 @@
+CRITICAL - 2023-04-28 13:27:54 --> Class 'App\Controllers\m_model' not found
+#0 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-28 13:28:16 --> Invalid file: barang.php
+#0 C:\xampp\htdocs\apotek\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang.php')
+#1 C:\xampp\htdocs\apotek\system\Common.php(1089): CodeIgniter\View\View->render('barang', Array, true)
+#2 C:\xampp\htdocs\apotek\app\Controllers\barang.php(15): view('barang', Array)
+#3 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#4 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#5 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-04-28 13:40:01 --> Unknown column 'deleted_at' in 'where clause'
+CRITICAL - 2023-04-28 13:40:01 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\apotek\app\Controllers\barang.php(11): App\Models\B_model->tampil('barang')
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#3 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-28 13:56:49 --> Invalid file: edit_barang.php
+#0 C:\xampp\htdocs\apotek\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_barang.php')
+#1 C:\xampp\htdocs\apotek\system\Common.php(1089): CodeIgniter\View\View->render('edit_barang', Array, true)
+#2 C:\xampp\htdocs\apotek\app\Controllers\barang.php(70): view('edit_barang', Array)
+#3 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\barang->edit_barang('11')
+#4 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#5 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-04-28 14:20:25 --> Class 'App\Models\K_model' not found
+#0 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\barang_keluar->index()
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang_keluar))
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-28 14:50:48 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\apotek\app\Views\keluar\tambah.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\apotek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\apotek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\apotek\system\Common.php(1089): CodeIgniter\View\View->render('keluar/tambah', Array, true)
+#4 C:\xampp\htdocs\apotek\app\Controllers\barang_keluar.php(26): view('keluar/tambah', Array)
+#5 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\barang_keluar->tambah_barang()
+#6 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang_keluar))
+#7 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-04-28 15:05:56 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:09:24 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:09:27 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:10:04 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:13:28 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:13:30 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:13:30 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:13:31 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:13:32 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:13:33 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:13:35 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:13:35 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:13:35 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:13:36 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:13:36 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:13:36 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:13:36 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:13:36 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:13:36 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:13:37 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2023-04-28 15:16:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xampp\htdocs\apotek\app\Controllers\barang_keluar.php(52): App\Models\K_model->hapus('brg_keluar', Array)
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\barang_keluar->hapus('29')
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang_keluar))
+#3 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-04-28 15:17:27 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:30 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:31 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:31 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:32 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:32 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:32 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:32 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:33 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:34 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:34 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:34 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:34 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:34 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:35 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:36 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:36 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:37 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:37 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:37 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:37 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:38 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:38 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:39 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:39 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:17:39 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:23:06 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:23:07 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:23:08 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:23:09 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:23:12 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:24:10 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:24:11 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:24:12 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:24:13 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:24:13 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:24:14 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:24:14 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:24:14 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:24:51 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:25:08 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:25:09 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-04-28 15:25:09 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2023-04-28 15:26:51 --> Class 'App\Controllers\m_model' not found
+#0 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\barang_keluar->hapus('29')
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang_keluar))
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-28 15:27:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xampp\htdocs\apotek\app\Controllers\barang_keluar.php(52): App\Models\K_model->hapus('brg_keluar', Array)
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\barang_keluar->hapus('29')
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang_keluar))
+#3 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-04-28 15:41:55 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2023-04-28 16:24:58 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\Home->pdf_b()
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-28 16:44:51 --> Call to undefined method App\Models\M_model::filter_f
+#0 C:\xampp\htdocs\apotek\app\Controllers\Home.php(156): CodeIgniter\Model->__call('filter_f', Array)
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\Home->excel_bm()
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-28 17:00:31 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\apotek\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\apotek\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\apotek\app\Controllers\Home.php(22): view('dashboard')
+#3 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-04-28 22:37:15 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-04-28 22:37:15 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\apotek\app\Controllers\user.php(13): App\Models\M_user->join2('user', 'level', 'user.level=leve...')
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-04-28 23:09:51 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-04-28 23:09:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\apotek\app\Controllers\user.php(13): App\Models\M_user->join2('user', 'level', 'user.level=leve...')
+#1 C:\xampp\htdocs\apotek\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 C:\xampp\htdocs\apotek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\apotek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apotek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\apotek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
